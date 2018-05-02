@@ -2,12 +2,11 @@
   "name": "build-node-venv",
   "version": "1.0.2",
   "description": "Bash helper to re-build node-venv",
-  "main": "build-node-venv.sh",
   "bin": {
-    "build-node-venv": "build-parent-node-venv.sh"
+    "buildenv": "build-parent-node-venv.sh"
   },
   "scripts": {
-    "env":"curl https://raw.githubusercontent.com/ESCPP/build-node-venv/master/build-node-venv.sh  > ./build-node-venv.sh && chmod +x ./build-node-venv.sh && ./build-node-venv.sh",
+    "env": "curl https://raw.githubusercontent.com/ESCPP/build-node-venv/master/build-node-venv.sh  > ./build-node-venv.sh && chmod +x ./build-node-venv.sh && ./build-node-venv.sh",
     "test": "cd test && npm install && build-node-venv"
   },
   "repository": {

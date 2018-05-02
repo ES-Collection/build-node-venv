@@ -9,16 +9,16 @@ A helper to (re-)build [nodeenv](https://github.com/ekalinin/nodeenv).
 
 First, install the package using npm:
 
-    npm install build-nodeenv --save-dev
+    npm install build-node-venv --save-dev
 
 Then you can use it as a CLI to rebuild your module:
 
-    build-nodeenv
+    buildenv
 
 You can also add it to you package.json like so:
 
     "scripts": {
-      "env": "build-nodeenv"
+      "buildenv": "buildenv"
     }
 
 ## No Node
