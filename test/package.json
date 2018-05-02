@@ -9,6 +9,10 @@
   "keywords": [
     "test"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ESCPP/build-node-venv.git"
+  },
   "author": "Bruno Herfst",
   "license": "UNLICENSED",
   "dependencies": {
