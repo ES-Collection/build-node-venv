@@ -1,5 +1,4 @@
 #!/bin/bash
-# https://github.com/ES-CPP/bashnips
 
 # current folder
 cd "${0%/*}"

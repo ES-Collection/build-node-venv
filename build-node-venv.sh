@@ -12,6 +12,11 @@ if [ -e "./.venv" ] ; then
 	rm -rf "./.venv" && deactivate
 fi
 
+# clear node_modules if there
+if [ -e "./node_modules" ] ; then
+	rm -rf "./node_modules"
+fi
+
 # create node env
 virtualenv .venv && source .venv/bin/activate
 
