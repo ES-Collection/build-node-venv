@@ -7,7 +7,7 @@
   },
   "scripts": {
     "env": "curl https://raw.githubusercontent.com/ESCPP/build-node-venv/master/build-node-venv.sh  > ./build-node-venv.sh && chmod +x ./build-node-venv.sh && ./build-node-venv.sh",
-    "test": "cd test && npm install && build-node-venv"
+    "test": "cd test && npm install && buildenv"
   },
   "repository": {
     "type": "git",
