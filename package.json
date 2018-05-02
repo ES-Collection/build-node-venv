@@ -1,0 +1,28 @@
+{
+  "name": "build-node-venv",
+  "version": "1.0.0",
+  "description": "Bash helper to re-build node-venv",
+  "main": "build-node-venv.sh",
+  "bin": {
+    "build-node-venv": "build-parent-node-venv.sh"
+  },
+  "scripts": {
+    "env": "chmod +x ./build-node-venv.sh && ./build-node-venv.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitBruno/build-node-venv.git"
+  },
+  "keywords": [
+    "nodeenv",
+    "python",
+    "venv",
+    "autoenv"
+  ],
+  "author": "Bruno Herfst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GitBruno/build-node-venv/issues"
+  },
+  "homepage": "https://github.com/GitBruno/build-node-venv"
+}

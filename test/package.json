@@ -1,0 +1,17 @@
+{
+  "name": "test-build-node-venv",
+  "version": "1.0.0",
+  "description": "A test for build-node-env",
+  "main": "README.md",
+  "scripts": {
+    "test": "npm install && build-node-venv"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Bruno Herfst",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "build-node-venv": "file:.."
+  }
+}
