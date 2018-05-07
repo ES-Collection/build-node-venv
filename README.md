@@ -7,19 +7,13 @@ A helper to (re-)build [nodeenv](https://github.com/ekalinin/nodeenv).
 
 ## Usage
 
-First, install the package using npm:
+Install the package using npm:
 
     npm install build-node-venv --save-dev
 
-Then you can use it as a CLI to rebuild your module:
+Now you can use it as a CLI to rebuild your module:
 
     buildenv
-
-You can also add it to you package.json like so:
-
-    "scripts": {
-      "buildenv": "buildenv"
-    }
 
 ## No Node
 
