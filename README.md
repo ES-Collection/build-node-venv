@@ -15,13 +15,11 @@ Now you can use it as a CLI to rebuild your module:
 
     buildenv
 
-## No Node
+## Add the pre-install hook
 
-In case you have no Node running outside your virtual environment, you can download and run the build script like so:
-
-    curl https://raw.githubusercontent.com/ESCPP/build-node-venv/master/build-node-venv.sh  > ./build-node-venv.sh && chmod +x ./build-node-venv.sh && ./build-node-venv.sh
-
-This will create the virtual environment so you will be able to reset from here as normal.
+    "scripts": {
+        "preinstall": "curl https://raw.githubusercontent.com/ESCPP/build-node-venv/master/build-node-venv.sh > ./.bnv.sh && chmod +x ./.bnv.sh && ./.bnv.sh && rm ./.bnv.sh"
+      }
 
 > Note that you will need [virtualenv](https://pypi.python.org/pypi/virtualenv) installed.
 
