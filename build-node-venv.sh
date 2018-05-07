@@ -34,4 +34,4 @@ pip install nodeenv && nodeenv -p
 npm config set strict-ssl false
 
 echo "Now go like install some modules!"
-npm install && npm update
+
