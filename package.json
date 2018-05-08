@@ -1,7 +1,7 @@
 {
   "name": "build-node-venv",
-  "version": "1.0.3",
-  "description": "Bash helper to re-build node-venv",
+  "version": "1.0.4",
+  "description": "Bash helper to re-build nodeenv",
   "bin": {
     "buildenv": "build-parent-node-venv.sh"
   },
