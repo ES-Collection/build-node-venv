@@ -25,7 +25,7 @@ printf "[global]\nindex-url=http://mirrors.aliyun.com/pypi/simple/\n" >> $VIRTUA
 printf "[install]\ntrusted-host=mirrors.aliyun.com\n" >> $VIRTUAL_ENV/pip.conf
 
 # add auto env
-pip install autoenv && echo "source `which activate.sh`" >> ~/.bashrc
+pip install autoenv && echo "source 'which activate.sh'" >> ~/.bashrc
 
 # pip install nodeenv
 pip install nodeenv && nodeenv -p
