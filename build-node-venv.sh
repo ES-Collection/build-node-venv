@@ -9,7 +9,7 @@ command -v virtualenv >/dev/null 2>&1 || { echo >&2 "I require virtualenv but it
 # clear env if there
 if [ -e "./.venv" ] ; then
     # gotcha auto env!
-	rm -rf "./.venv" && deactivate
+    deactivate && rm -rf "./.venv" && deactivate
 fi
 
 # clear node_modules if there
