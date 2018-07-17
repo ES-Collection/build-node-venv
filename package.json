@@ -1,17 +1,17 @@
 {
   "name": "build-node-venv",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bash helper to re-build nodeenv",
   "bin": {
     "buildenv": "build-parent-node-venv.sh"
   },
   "scripts": {
-    "env": "curl https://raw.githubusercontent.com/ESCPP/build-node-venv/master/build-node-venv.sh  > ./build-node-venv.sh && chmod +x ./build-node-venv.sh && ./build-node-venv.sh",
+    "env": "curl https://raw.githubusercontent.com/ES-Collection/build-node-venv/master/build-node-venv.sh  > ./build-node-venv.sh && chmod +x ./build-node-venv.sh && ./build-node-venv.sh",
     "test": "cd test && npm install && buildenv"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ESCPP/build-node-venv.git"
+    "url": "git+https://github.com/ES-Collection/build-node-venv.git"
   },
   "keywords": [
     "nodeenv",
@@ -22,7 +22,7 @@
   "author": "Bruno Herfst",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ESCPP/build-node-venv/issues"
+    "url": "https://github.com/ES-Collection/build-node-venv/issues"
   },
-  "homepage": "https://github.com/ESCPP/build-node-venv"
+  "homepage": "https://github.com/ES-Collection/build-node-venv"
 }
