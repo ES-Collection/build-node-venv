@@ -1,7 +1,7 @@
 # build-node-venv
 
 [![version](https://img.shields.io/npm/v/build-node-venv.svg)](https://www.npmjs.org/package/build-node-venv)
-[![status](https://travis-ci.org/ESCPP/build-node-venv.svg)](https://travis-ci.org/ESCPP/build-node-venv)
+[![status](https://travis-ci.org/ES-Collection/build-node-venv.svg)](https://travis-ci.org/ES-Collection/build-node-venv)
 
 A helper to (re-)build [nodeenv](https://github.com/ekalinin/nodeenv).
 
