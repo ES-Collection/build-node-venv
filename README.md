@@ -18,7 +18,7 @@ Now you can use it as a CLI to rebuild your module:
 ## Add the pre-install hook
 
     "scripts": {
-        "preinstall": "curl https://raw.githubusercontent.com/ES-Collection/build-node-venv/master/build-node-venv.sh > ./.bnv.sh && chmod +x ./.bnv.sh && ./.bnv.sh && rm ./.bnv.sh"
+        "prepare": "curl https://raw.githubusercontent.com/ES-Collection/build-node-venv/master/build-node-venv.sh > ./.bnv.sh && chmod +x ./.bnv.sh && ./.bnv.sh && rm ./.bnv.sh"
       }
 
 > Note that you will need [virtualenv](https://pypi.python.org/pypi/virtualenv) installed.
